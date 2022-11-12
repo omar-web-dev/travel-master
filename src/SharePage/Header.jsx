@@ -27,36 +27,25 @@ const Header = () => {
             <div className="flex-initial">
                 <div className="flex justify-end items-center relative">
                     <div className="block md:flex mr-4 items-center">
-                        <a className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" href="#">
+                        <Link className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" to="/home">
                             <div className="flex items-center relative cursor-pointer whitespace-nowrap">Home</div>
-                        </a>
-                        <a className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" href="#">
-                            <div className="flex items-center relative cursor-pointer whitespace-nowrap">Home</div>
-                        </a>
-                        <a className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" href="#">
-                            <div className="flex items-center relative cursor-pointer whitespace-nowrap">Home</div>
-                        </a>
-                        <a className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" href="#">
-                            <div className="flex items-center relative cursor-pointer whitespace-nowrap">Home</div>
-                        </a>
-                        <a className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" href="#">
-                            <div className="flex items-center relative cursor-pointer whitespace-nowrap">Home</div>
-                        </a>
+                        </Link>
+                        <Link className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" to="/news">
+                            <div className="flex items-center relative cursor-pointer whitespace-nowrap">News</div>
+                        </Link>
+                        <Link className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" to="/destination">
+                            <div className="flex items-center relative cursor-pointer whitespace-nowrap">Destination</div>
+                        </Link>
+                        <Link className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" to="/blog">
+                            <div className="flex items-center relative cursor-pointer whitespace-nowrap">Blog</div>
+                        </Link>
+                        <Link className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" to="/contact">
+                            <div className="flex items-center relative cursor-pointer whitespace-nowrap">Contact</div>
+                        </Link>
+                        <Link className="block md:inline-block py-2 px-3 hover:bg-yellow-700 rounded-md" to="/log-in">
+                            <div className="flex items-center relative cursor-pointer whitespace-nowrap">LogIn</div>
+                        </Link>
                     </div>
-                    {/*         
-                <div className="block">
-                    <div className="inline relative">
-                        <button type="button" className="inline-flex items-center relative px-2 border rounded-md hover:shadow-lg">
-                            <div className="pl-1">
-                               
-                            </div>
-        
-                            <div className="block flex-grow-0 flex-shrink-0 h-10 w-12 pl-5">
-                                <Link to='/'>LogIn</Link>
-                            </div>
-                        </button>
-                    </div>
-                </div> */}
                 </div>
             </div>
         </nav>
